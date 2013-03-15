@@ -1,0 +1,11 @@
+00 r/m8, r8
+01 r/m32, r32
+02 r8, r/m8
+03 r32, r/m32
+04 AL, imm8
+05 EAX, imm32
+
+80 /0 ib	ADD r/m8, imm8
+81 /0 id	ADD r/m32, imm32
+
+83 /0 ib	ADD r/m32, imm8
