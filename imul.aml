@@ -1,0 +1,15 @@
+F6 /5 IMUL r/m8 AX← AL? r/m バイト
+F7 /5 IMUL r/m16 DX:AX ← AX ? r/m ワード
+F7 /5 IMUL r/m32 EDX:EAX ← EAX ? r/m ダブルワード
+0F AF /r IMUL r16, r/m16 ワードレジスタ ← ワードレジスタ ?r/m ワード
+0F AF /r IMUL r32, r/m32 ダブルワード・レジスタ ← ダブルワード・レジスタ ? r/m
+ダブルワード
+6B /r ib IMUL r16, r/m16, imm8 ワードレジスタ ← r/m16 ? 符号拡張即値バイト
+6B /r ib IMUL r32, r/m32, imm8 ダブルワード・レジスタ ← r/m32 ? 符号拡張即値バイト
+6B /r ib IMUL r16, imm8 ワードレジスタ ← ワードレジスタ ? 符号拡張即値バイト
+6B /r ib IMUL r32, imm8 ダブルワード・レジスタ ← ダブルワード・レジスタ ? 符
+号拡張即値バイト
+69 /r iw IMUL r16, r/m16, imm16 ワードレジスタ ← r/m16 ? 即値ワード
+69 /r id IMUL r32, r/m32, imm32 ダブルワード・レジスタ ← r/m32 ? 即値ダブルワード
+69 /r iw IMUL r16, imm16 ワードレジスタ ← r/m16 ? 即値ワード
+69 /r id IMUL r32, imm32 ダブルワード・レジスタ ← r/m32 ? 即値ダブルワード
