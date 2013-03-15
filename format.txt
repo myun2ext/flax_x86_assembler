@@ -1,0 +1,1 @@
+prefix opecode ModR/M(1byte) SIB(1byte) ディスプレー素面と（可変）即値（可変）
