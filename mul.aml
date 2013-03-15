@@ -1,0 +1,5 @@
+(unsigned multiply)
+===
+F6 /4	AX = AL * r/m8
+F7 /4	DX:AX = AX * r/m16
+F7 /4	EDX:EAX = EAX * r/m32
