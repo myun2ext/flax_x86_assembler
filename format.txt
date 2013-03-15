@@ -1,1 +1,11 @@
-prefix opecode ModR/M(1byte) SIB(1byte) ディスプレー素面と（可変）即値（可変）
+prefix, opecode, ModR/M(1byte), SIB(1byte), Displacement(Variable size), Imm(Variable size)
+===
+ModR/M
+
+2   3               3
+Mod Register/OpCode R/M
+
+===
+SIB
+2     3     3
+Scale Index Base
