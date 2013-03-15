@@ -1,14 +1,10 @@
+00 /r		ADD r/m8, r8
+01 /r		ADD r/m16, r16
+02 /r		ADD r8, r/m8
+03 /r		ADD r16, r/m16
 04 ib		ADD AL, imm8
 05 iw		ADD AX, imm16
 05 id		ADD EAX, imm32
 80 /0 ib	ADD r/m8, imm8
 81 /0 iw	ADD r/m16, imm16
-81 /0 id	ADD r/m32, imm32
 83 /0 ib	ADD r/m16, imm8
-83 /0 ib	ADD r/m32, imm8
-00 /r		ADD r/m8, r8
-01 /r		ADD r/m16, r16
-01 /r		ADD r/m32, r32
-02 /r		ADD r8, r/m8
-03 /r		ADD r16, r/m16
-03 /r		ADD r32, r/m32
