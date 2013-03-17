@@ -2,3 +2,14 @@
 66 0F 63 /r PACKSSWB xmm1, xmm2/m128
 0F 6B /r PACKSSDW mm1, mm2/m64
 66 0F 6B /r PACKSSDW xmm1, xmm2/m128
+
+0F 67 /r PACKUSWB mm, mm/m64
+66 0F 67 /r PACKUSWB xmm1, xmm2/m128
+
+
+0F FC /r PADDB mm, mm/m64 mm/m64
+66 0F FC /r PADDB xmm1, mm2/m12
+0F FD /r PADDW mm, mm/m64 mm/m64
+66 0F FD /r PADDW xmm1, xmm2/m128
+0F FE /r PADDD mm, mm/m64 mm/m64
+66 0F FE /r PADDD xmm1, xmm2/m128
