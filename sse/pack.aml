@@ -13,3 +13,16 @@
 66 0F FD /r PADDW xmm1, xmm2/m128
 0F FE /r PADDD mm, mm/m64 mm/m64
 66 0F FE /r PADDD xmm1, xmm2/m128
+
+0F D4 /r PADDQ mm1, mm2/m64
+66 0F D4 /r PADDQ xmm1, xmm2/m128
+
+0F EC /r PADDSB mm, mm/m64
+66 0F EC /r PADDSB xmm1, xmm2/m128
+0F ED /r PADDSW mm, mm/m6
+66 0F ED /r PADDSW xmm1, xmm2/m128
+
+0F DC /r PADDUSB mm, mm/m64
+66 0F DC /r PADDUSB xmm1, xmm2/m128
+0F DD /r PADDUSW mm, mm/m64 mm/m64
+66 0F DD /r PADDUSW xmm1, xmm2/m128
