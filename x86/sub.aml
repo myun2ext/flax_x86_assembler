@@ -1,0 +1,14 @@
+2C ib SUB AL, imm8 AL からimm8 を引く。
+2D iw SUB AX, imm16 AX からimm16 を引く。
+2D id SUB EAX, imm32 EAX からimm32 を引く。
+80 /5 ib SUB r/m8, imm8 r/m8 からimm8 を引く。
+81 /5 iw SUB r/m16, imm16 r/m16 からimm16 を引く。
+81 /5 id SUB r/m32, imm32 r/m32 からimm32 を引く。
+83 /5 ib SUB r/m16, imm8 r/m16 から符号拡張されたimm8 を引く。
+83 /5 ib SUB r/m32, imm8 r/m32 から符号拡張されたimm8 を引く。
+28 /r SUB r/m8, r8 r/m8 からr8 を引く。
+29 /r SUB r/m16, r16 r/m16 からr16 を引く。
+29 /r SUB r/m32, r32 r/m32 からr32 を引く。
+2A /r SUB r8, r/m8 r8 からr/m8 を引く。
+2B /r SUB r16, r/m16 r16 からr/m16 を引く。
+2B /r SUB r32, r/m32
