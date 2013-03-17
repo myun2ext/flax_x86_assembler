@@ -1,0 +1,14 @@
+24 ib AND AL, imm8 AL とimm8 とのAND をとる。
+25 iw AND AX, imm16 AX とimm16 とのAND をとる。
+25 id AND EAX, imm32 EAX とimm32 とのAND をとる。
+80 /4 ib AND r/m8, imm8 r/m8 とimm8 とのAND をとる。
+81 /4 iw AND r/m16, imm16 r/m16 とimm16 とのAND をとる。
+81 /4 id AND r/m32, imm32 r/m32 とimm32 とのAND をとる。
+83 /4 ib AND r/m16, imm8 r/m16 とimm8（符号拡張）とのAND をとる。
+83 /4 ib AND r/m32, imm8 r/m32 とimm8（符号拡張）とのAND をとる。
+20 /r AND r/m8, r8 r/m8 とr8 とのAND をとる。
+21 /r AND r/m16, r16 r/m16 とr16 とのAND をとる。
+21 /r AND r/m32, r32 r/m32 とr32 とのAND をとる。
+22 /r AND r8, r/m8 r8 とr/m8 とのAND をとる。
+23 /r AND r16, r/m16 r16 とr/m16 とのAND をとる。
+23 /r AND r32, r/m32 r32 とr/m32 とのAND をとる。
