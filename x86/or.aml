@@ -1,0 +1,14 @@
+0C ib OR AL, imm8 AL とimm8 とのOR をとる。
+0D iw OR AX, imm16 AX とimm16 とのOR をとる。
+0D id OR EAX, imm32 EAX とimm32 とのOR をとる。
+80 /1 ib OR r/m8, imm8 r/m8 とimm8 とのOR をとる。
+81 /1 iw OR r/m16, imm16 r/m16 とimm16 とのOR をとる。
+81 /1 id OR r/m32, imm32 r/m32 とimm32 とのOR をとる。
+83 /1 ib OR r/m16, imm8 r/m16 とimm8（符号拡張）とのOR をとる。
+83 /1 ib OR r/m32, imm8 r/m32 とimm8（符号拡張）とのOR をとる。
+08 /r OR r/m8, r8 r/m8 とr8 とのOR をとる。
+09 /r OR r/m16, r16 r/m16 とr16 とのOR をとる。
+09 /r OR r/m32, r32 r/m32 とr32 とのOR をとる。
+0A /r OR r8, r/m8 r8 とr/m8 とのOR をとる。
+0B /r OR r16, r/m16 r16 とr/m16 とのOR をとる。
+0B /r OR r32, r/m32 r32 とr/m32 とのOR をとる。
