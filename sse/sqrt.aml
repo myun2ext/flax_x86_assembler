@@ -1,0 +1,4 @@
+66 0F 51 /r SQRTPD xmm1, xmm2/m128
+0F 51 /r SQRTPS xmm1, xmm2/m128
+F2 0F 51 /r SQRTSD xmm1, xmm2/m64                                       
+F3 0F 51 /r SQRTSS xmm1, xmm2/m32
