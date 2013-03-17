@@ -1,0 +1,13 @@
+ModR/M
+===
+- 0-2bit: R/M
+- 3-5bit: Register/OpCode
+- 6-7bit: Mod
+===
+R/M:
+
+===
+Register/OpCode:
+
+===
+Mod:
