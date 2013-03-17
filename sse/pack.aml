@@ -1,0 +1,4 @@
+0F 63 /r PACKSSWB mm1, mm2/m64
+66 0F 63 /r PACKSSWB xmm1, xmm2/m128
+0F 6B /r PACKSSDW mm1, mm2/m64
+66 0F 6B /r PACKSSDW xmm1, xmm2/m128
