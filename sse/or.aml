@@ -1,2 +1,6 @@
 66 0F 56 /r ORPD xmm1, xmm2/m128
 0F 56 /r ORPS xmm1, xmm2/m128
+
+0F EB /r POR mm, mm/m64
+66 0F EB /r POR xmm1, xmm2/m128
+xmm2/m128 とxmm1 のビット単位のOR（論理和）演算を実行する。
