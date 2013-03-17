@@ -1,0 +1,13 @@
+FF /6 PUSH r/m16 r/m16 をプッシュする。
+FF /6 PUSH r/m32 r/m32 をプッシュする。
+50+rw PUSH r16 r16 をプッシュする。
+50+rd PUSH r32 r32 をプッシュする。
+6A PUSH imm8 imm8 をプッシュする。
+68 PUSH imm16 imm16 をプッシュする。
+68 PUSH imm32 imm32 をプッシュする。
+0E PUSH CS CS をプッシュする。
+16 PUSH SS SS をプッシュする。
+1E PUSH DS DS をプッシュする。
+06 PUSH ES ES をプッシュする。
+0F A0 PUSH FS FS をプッシュする。
+0F A8 PUSH GS
