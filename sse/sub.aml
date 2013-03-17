@@ -1,0 +1,21 @@
+0F F8 /r PSUBB mm, mm/m64 mmのパックドバイト整数からmm/m64のパックド
+バイト整数を引く。
+66 0F F8 /r PSUBB xmm1, xmm2/m128 xmm1 のパックドバイト整数からxmm2/m128 の
+パックドバイト整数を引く。
+0F F9 /r PSUBW mm, mm/m64 mmのパックドワード整数からmm/m64のパックド
+ワード整数を引く。
+66 0F F9 /r PSUBW xmm1, xmm2/m128 xmm1 のパックドワード整数からxmm2/m128 の
+パックドワード整数を引く。
+0F FA /r PSUBD mm, mm/m64 mm のパックド・ダブルワード整数からmm/m64 の
+パックド・ダブルワード整数を引く。
+66 0F FA /r PSUBD xmm1, xmm2/m128
+
+
+0F FB /r PSUBQ mm1, mm2/m64 mm2/m64 からmm1 のクワッドワード整数を引く。
+66 0F FB /r PSUBQ xmm1, xmm2/m128 xmm2/m128 からxmm1 のパックド・クワッドワー
+
+
+66 0F 5C /r SUBPD xmm1, xmm2/m128
+0F 5C /r SUBPS xmm1, xmm2/m128
+F2 0F 5C /r SUBSD xmm1, xmm2/m64
+F3 0F 5C /r SUBSS xmm1, xmm2/m32
