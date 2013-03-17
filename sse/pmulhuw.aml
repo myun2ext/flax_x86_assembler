@@ -1,0 +1,2 @@
+0F E4 /r PMULHUW mm1, mm2/m64 mm1
+66 0F E4 /r PMULHUW xmm1, xmm2/m128
