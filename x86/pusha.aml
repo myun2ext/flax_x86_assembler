@@ -1,0 +1,2 @@
+60 PUSHA AX、CX、DX、BX、元のSP、BP、SI、およびDI をプッシュする。
+60 PUSHAD EAX、ECX、EDX、EBX、元のESP、EBP、ESI、およびEDI をプッシュする。
