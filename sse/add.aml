@@ -1,0 +1,4 @@
+66 0F 58 /r ADDPD xmm1, xmm2/m128
+0F 58 /r ADDPS xmm1, xmm2/m128
+F2 0F 58 /r ADDSD xmm1, xmm2/m64
+F3 0F 58 /r ADDSS xmm1, xmm2/m32
