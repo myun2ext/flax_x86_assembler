@@ -1,0 +1,2 @@
+66, 0F, D0, /r ADDSUBPD xmm1, xmm2/m128
+F2, 0F, D0, /r ADDSUBPS xmm1, xmm2/m128
