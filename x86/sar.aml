@@ -1,0 +1,9 @@
+D0 /7 SAR r/m8 r/m8 を2 で1 回符号付き除算する。*
+D2 /7 SAR r/m8, CL r/m8 を2 でCL 回符号付き除算する。*
+C0 /7 ib SAR r/m8, imm8 r/m8 を2 でimm8 回符号付き除算する。*
+D1 /7 SAR r/m16 r/m16 を2 で1 回符号付き除算する。*
+D3 /7 SAR r/m16, CL r/m16 を2 でCL 回符号付き除算する。*
+C1 /7 ib SAR r/m16, imm8 r/m16 を2 でimm8 回符号付き除算する。*
+D1 /7 SAR r/m32 r/m32 を2 で1 回符号付き除算する。*
+D3 /7 SAR r/m32, CL r/m32 を2 でCL 回符号付き除算する。*
+C1 /7 ib SAR r/m32, imm8 r/m32 を2 でimm8 回符号付き除算する。*

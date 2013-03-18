@@ -1,0 +1,9 @@
+D0 /4 SAL r/m8 r/m8 に2 を1 回掛ける。
+D2 /4 SAL r/m8, CL r/m8 に2 をCL 回掛ける。
+C0 /4 ib SAL r/m8, imm8 r/m8 に2 をimm8 回掛ける。
+D1 /4 SAL r/m16 r/m16 に2 を1 回掛ける。
+D3 /4 SAL r/m16, CL r/m16 に2 をCL 回掛ける。
+C1 /4 ib SAL r/m16, imm8 r/m16 に2 をimm8 回掛ける。
+D1 /4 SAL r/m32 r/m32 に2 を1 回掛ける。
+D3 /4 SAL r/m32, CL r/m32 に2 をCL 回掛ける。
+C1 /4 ib SAL r/m32, imm8 r/m32 に2 をimm8 回掛ける。
