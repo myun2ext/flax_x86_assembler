@@ -1,0 +1,4 @@
+C3 RET コール元プロシージャにnear リターンする。
+CB RET コール元プロシージャにfar リターンする。
+C2 iw RET imm16 コール元プロシージャにnear リターンし、imm16 バイトをスタックからポップする。
+CA iw RET imm16
