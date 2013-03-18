@@ -1,3 +1,15 @@
+ANDPD.Bitwise Logical AND of Packed Double-Precision Floating-Point Values
+66 0F 54 /r ANDPD xmm1, xmm2/m128
+
+ANDPS.Bitwise Logical AND of Packed Single-Precision Floating-Point Values
+0F 54 /r ANDPS xmm1, xmm2/m128
+
+ANDNPD.Bitwise Logical AND NOT of Packed Double-Precision Floating-Point Values
+66 0F 55 /r ADDPD xmm1, xmm2/m128
+
+ANDNPS.Bitwise Logical AND NOT of Packed Single-Precision Floating-Point Values
+0F 55 /r ANDNPS xmm1, xmm2/m128
+
 0F DB /r PAND mm, mm/m64 mm/m64
 66 0F DB /r PAND xmm1, xmm2/m128
 
