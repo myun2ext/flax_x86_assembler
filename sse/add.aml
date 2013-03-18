@@ -1,4 +1,17 @@
 66 0F 58 /r ADDPD xmm1, xmm2/m128
+DEST[63-0] Å© DEST[63-0] + SRC[63-0];
+DEST[127-64] Å© DEST[127-64] + SRC[127-64];
+
 0F 58 /r ADDPS xmm1, xmm2/m128
+DEST[31-0] Å© DEST[31-0] + SRC[31-0];
+DEST[63-32] Å© DEST[63-32] + SRC[63-32];
+DEST[95-64] Å© DEST[95-64] + SRC[95-64];
+DEST[127-96] Å© DEST[127-96] + SRC[127-96];
+
 F2 0F 58 /r ADDSD xmm1, xmm2/m64
+DEST[63-0] Å© DEST[63-0] + SRC[63-0];
+* DEST[127-64] remains unchanged *;
+
 F3 0F 58 /r ADDSS xmm1, xmm2/m32
+DEST[31-0] Å© DEST[31-0] + SRC[31-0];
+* DEST[127-32] remain unchanged *;
