@@ -1,0 +1,14 @@
+34 ib XOR AL, imm8 AL とimm8 とのXOR をとる。
+35 iw XOR AX, imm16 AX とimm16 とのXOR をとる。
+35 id XOR EAX, imm32 EAX とimm32 とのXOR をとる。
+80 /6 ib XOR r/m8, imm8 r/m8 とimm8 とのXOR をとる。
+81 /6 iw XOR r/m16, imm16 r/m16 とimm16 とのXOR をとる。
+81 /6 id XOR r/m32, imm32 r/m32 とimm32 とのXOR をとる。
+83 /6 ib XOR r/m16, imm8 r/m16 とimm8（符号拡張）とのXOR をとる。
+83 /6 ib XOR r/m32, imm8 r/m32 とimm8（符号拡張）とのXOR をとる。
+30 /r XOR r/m8, r8 r/m8 とr8 とのXOR をとる。
+31 /r XOR r/m16, r16 r/m16 とr16 とのXOR をとる。
+31 /r XOR r/m32, r32 r/m32 とr32 とのXOR をとる。
+32 /r XOR r8, r/m8 r8 とr/m8 とのXOR をとる。
+33 /r XOR r16, r/m16 r16 とr/m16 とのXOR をとる。
+33 /r XOR r32, r/m32 r32 とr/m32 とのXOR をとる。
