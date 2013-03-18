@@ -1,0 +1,34 @@
+0F E1 /r PSRAW mm, mm/m64 mm のワードをmm/m64 だけ右にシフトし、上位は符号ビットで埋める。
+66 0F E1 /r PSRAW xmm1, xmm2/m128 xmm1 のワードをxmm2/m128 だけ右にシフトし、上位は符号ビットで埋める。
+0F 71 /4 ib PSRAW mm, imm8 mm のワードをimm8 だけ右にシフトし、上位は符号ビットで埋める。
+66 0F 71 /4 ib PSRAW xmm1, imm8 xmm1 のワードをimm8 だけ右にシフトし、上位は符号ビットで埋める。
+0F E2 /r PSRAD mm, mm/m64 mm のダブルワードをmm/m64 だけ右にシフトし、上位は符号ビットで埋める。
+66 0F E2 /r PSRAD xmm1, xmm2/m128 xmm1 のダブルワードをxmm2/m128 だけ右にシフトし、上位は符号ビットで埋める。
+0F 72 /4 ib PSRAD mm, imm8 mm のダブルワードをimm8 だけ右にシフトし、上位は符号ビットで埋める。
+66 0F 72 /4 ib PSRAD xmm1, imm8 xmm1 のダブルワードをimm8 だけ右にシフトし、上位は符号ビットで埋める。
+
+66 0F 73 /3 ib PSRLDQ xmm1, imm8
+
+0F D1 /r PSRLW mm, mm/m64 mm のワードをmm/m64 に指定されたビットだけ右にシフトし、上位はゼロで埋める。
+66 0F D1 /r PSRLW xmm1, xmm2/m128 xmm1 のワードをxmm2/m128 に指定されたビットだけ右にシフトし、上位はゼロで埋める。
+0F 71 /2 ib PSRLW mm, imm8 mm のワードをimm8 だけ右にシフトし、上位はゼロで埋める。
+66 0F 71 /2 ib PSRLW xmm1, imm8 xmm1 のワードをimm8 だけ右にシフトし、上位はゼロで埋める。
+0F D2 /r PSRLD mm, mm/m64 mm のダブルワードをmm/m64 に指定されたビットだけ右にシフトし、上位はゼロで埋める。
+66 0F D2 /r PSRLD xmm1, xmm2/m128 xmm1 のダブルワードをxmm2/m128 に指定されたビットだけ右にシフトし、上位はゼロで埋める。
+0F 72 /2 ib PSRLD mm, imm8 mm のダブルワードをimm8 だけ右にシフトし、上位はゼロで埋める。
+66 0F 72 /2 ib PSRLD xmm1, imm8 xmm1のダブルワードをimm8だけ右にシフトし、上位はゼロで埋める。
+0F D3 /r PSRLQ mm, mm/m64 mm をmm/m64 に指定されたビットだけ右にシフトし、上位はゼロで埋める。
+66 0F D3 /r PSRLQ xmm1, xmm2/m128 xmm1のクワッドワードをxmm/m128 に指定されたビットだけ右にシフトし、上位はゼロで埋める。
+0F 73 /2 ib PSRLQ mm, imm8 mmをimm8だけ右にシフトし、上位はゼロで埋める。
+66 0F 73 /2 ib PSRLQ xmm1, imm8
+
+
+0F E8 /r PSUBSB mm, mm/m64 mmの符号付きパックドバイトからmm/m64 の符号付きパックドバイトを引き、結果を飽和させる。
+66 0F E8 /r PSUBSB xmm1, xmm2/m128 xmm1 の符号つきパックドバイトからxmm2/m128の符号付きパックドバイトを引き、結果を飽和させる。
+0F E9 /r PSUBSW mm, mm/m64 mmの符号付きパックドワードからmm/m64 の符号付きパックドワードを引き、結果を飽和させる。
+66 0F E9 /r PSUBSW xmm1, xmm2/m128
+
+0F D8 /r PSUBUSB mm, mm/m64 mmの符号なしパックドバイトからmm/m64の符号なしパックドバイトを引き、結果を飽和させる。
+66 0F D8 /r PSUBUSB xmm1, xmm2/m128 xmm1 の符号なしパックドバイトからxmm2/m128の符号なしパックドバイトを引き、結果を飽和させる。
+0F D9 /r PSUBUSW mm, mm/m64 mmの符号なしパックドワードからmm/m64の符号なしパックドワードを引き、結果を飽和させる。
+66 0F D9 /r PSUBUSW xmm1, xmm2/m128 xmm1 の符号なしパックドワードからxmm2/m128

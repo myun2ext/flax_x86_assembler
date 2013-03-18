@@ -1,0 +1,13 @@
+66 0F 73 /7 ib PSLLDQ xmm1, imm8
+0F F1 /r PSLLW mm, mm/m64 mm のワードをmm/m64 だけ左にシフトし、下位はゼロで埋める。
+66 0F F1 /r PSLLW xmm1, xmm2/m128 xmm1 のワードをxmm2/m128 だけ左にシフトし、下位はゼロで埋める。
+0F 71 /6 ib PSLLW mm, imm8 mm のワードをimm8 だけ左にシフトし、下位はゼロで埋める。
+66 0F 71 /6 ib PSLLW xmm1, imm8 xmm1 のワードをimm8 だけ左にシフトし、下位はゼロで埋める。
+0F F2 /r PSLLD mm, mm/m64 mm のダブルワードをmm/m64 だけ左にシフトし、下位はゼロで埋める。
+66 0F F2 /r PSLLD xmm1, xmm2/m128 xmm1 のダブルワードをxmm2/m128 だけ左にシフトし、下位はゼロで埋める。
+0F 72 /6 ib PSLLD mm, imm8 mm のダブルワードをimm8 だけ左にシフトし、下位はゼロで埋める。
+66 0F 72 /6 ib PSLLD xmm1, imm8 xmm1 のダブルワードをimm8 だけ左にシフトし、下位はゼロで埋める。
+0F F3 /r PSLLQ mm, mm/m64 mmのクワッドワードをmm/m64だけ左にシフトし、下位はゼロで埋める。
+66 0F F3 /r PSLLQ xmm1, xmm2/m128 xmm1 のクワッドワードをxmm2/m128 だけ左にシフトし、下位はゼロで埋める。
+0F 73 /6 ib PSLLQ mm, imm8 mm のクワッドワードをimm8 だけ左にシフトし、下位はゼロで埋める。
+66 0F 73 /6 ib PSLLQ xmm1, imm8
