@@ -1,0 +1,14 @@
+1C ib SBB AL, imm8 AL から imm8 をボローありで引く。
+1D iw SBB AX, imm16 AX から imm16 をボローありで引く。
+1D id SBB EAX, imm32 EAX から imm32 をボローありで引く。
+80 /3 ib SBB r/m8, imm8 r/m8 からimm8 をボローありで引く。
+81 /3 iw SBB r/m16, imm16 r/m16 からimm16 をボローありで引く。
+81 /3 id SBB r/m32, imm32 r/m32 からimm32 をボローありで引く。
+83 /3 ib SBB r/m16, imm8 r/m16 から符号拡張されたimm8 をボローありで引く。
+83 /3 ib SBB r/m32, imm8 r/m32 から符号拡張されたimm8 をボローありで引く。
+18 /r SBB r/m8, r8 r/m8 からr8 をボローありで引く。
+19 /r SBB r/m16, r16 r/m16 からr16 をボローありで引く。
+19 /r SBB r/m32, r32 r/m32 からr32 をボローありで引く。
+1A /r SBB r8, r/m8 r8 からr/m8 をボローありで引く。
+1B /r SBB r16, r/m16 r16 からr/m16 をボローありで引く。
+1B /r SBB r32, r/m32
