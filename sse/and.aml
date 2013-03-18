@@ -1,0 +1,5 @@
+0F DB /r PAND mm, mm/m64 mm/m64
+66 0F DB /r PAND xmm1, xmm2/m128
+
+0F DF /r PANDN mm, mm/m64
+66 0F DF /r PANDN xmm1, xmm2/m128
