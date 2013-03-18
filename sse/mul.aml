@@ -1,0 +1,4 @@
+66 0F 59 /r MULPD xmm1, xmm2/m128
+0F 59 /r MULPS xmm1, xmm2/m128
+F2 0F 59 /r MULSD xmm1, xmm2/m64
+F3 0F 59 /r MULSS xmm1, xmm2/m32
