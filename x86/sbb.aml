@@ -1,0 +1,6 @@
+18 r/m8, r8
+19 r/m32, r32
+1a r8, r/m8
+1b r32, r/m32
+1c AL, imm8
+1d EAX, imm32
