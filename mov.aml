@@ -1,0 +1,20 @@
+88 /r MOV r/m8, r8 r8 をr/m8 に転送する。
+89 /r MOV r/m16, r16 r16 をr/m16 に転送する。
+89 /r MOV r/m32, r32 r32 をr/m32 に転送する。
+8A /r MOV r8, r/m8 r/m8 をr8 に転送する。
+8B /r MOV r16, r/m16 r/m16 をr16 に転送する。
+8B /r MOV r32, r/m32 r/m32 をr32 に転送する。
+8C /r MOV r/m16, Sreg** セグメント・レジスタをr/m16 に転送する。
+8E /r MOV Sreg, r/m16** r/m16 をセグメント・レジスタに転送する。
+A0 MOV AL, moffs8* （セグメント: オフセット）のバイトをAL に転送する。
+A1 MOV AX, moffs16* （セグメント: オフセット）のワードをAX に転送する。
+A1 MOV EAX, moffs32* （セグメント:オフセット）のダブルワードをEAXに転送する。
+A2 MOV moffs8*, AL AL を（セグメント: オフセット）に転送する。
+A3 MOV moffs16*, AX AX を（セグメント: オフセット）に転送する。
+A3 MOV moffs32*, EAX EAX を( セグメント: オフセット）に転送する。
+B0+ rb MOV r8, imm8 imm8 をr8 に転送する。
+B8+ rw MOV r16, imm16 imm16 をr16 に転送する。
+B8+ rd MOV r32, imm32 imm32 をr32 に転送する。
+C6 /0 MOV r/m8, imm8 imm8 をr/m8 に転送する。
+C7 /0 MOV r/m16, imm16 imm16 をr/m16 に転送する。
+C7 /0 MOV r/m32, imm32 imm32 をr/m32 に転送する。
