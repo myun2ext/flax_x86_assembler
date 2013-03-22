@@ -1,0 +1,13 @@
+88 /r MOV r/m8, r8 r8 をr/m8 に転送する。
+89 /r MOV r/m32, r32 r32 をr/m32 に転送する。
+
+8A /r MOV r8, r/m8 r/m8 をr8 に転送する。
+8B /r MOV r32, r/m32 r/m32 をr32 に転送する。
+
+
+B0+ rb MOV r8, imm8 imm8 をr8 に転送する。
+B8+ rw MOV r16, imm16 imm16 をr16 に転送する。
+B8+ rd MOV r32, imm32 imm32 をr32 に転送する。
+C6 /0 MOV r/m8, imm8 imm8 をr/m8 に転送する。
+C7 /0 MOV r/m16, imm16 imm16 をr/m16 に転送する。
+C7 /0 MOV r/m32, imm32 imm32 をr/m32 に転送する。
