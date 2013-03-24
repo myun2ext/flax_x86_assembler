@@ -1,3 +1,13 @@
-Operand-size override prefix
-===
-66
+F0
+
+2E CS segment override (use with any branch instruction is reserved)
+36 SS segment override prefix (use with any branch instruction is reserved)
+3E DS segment override prefix (use with any branch instruction is reserved)
+26 ES segment override prefix (use with any branch instruction is reserved)
+64 FS segment override prefix (use with any branch instruction is reserved)
+65 GS segment override prefix (use with any branch instruction is reserved)
+
+2E Branch not taken (used only with Jcc instructions)
+3E Branch taken (used only with Jcc instructions)
+66 Operand-size override prefix is encoded using (66H is also used as a mandatory prefix for some instructions).
+67 Address-size override prefix or none
