@@ -1,4 +1,7 @@
-F0
+F0 LOCK prefix is encoded using
+F2 REPNE/REPNZ prefix is encoded using. Repeat-Not-Zero prefix applies only to string and
+   input/output instructions. (F2H is also used as a mandatory prefix for some instructions)
+F3 REP or REPE/REPZ is encoded using. Repeat prefix applies only to string
 
 2E CS segment override (use with any branch instruction is reserved)
 36 SS segment override prefix (use with any branch instruction is reserved)
