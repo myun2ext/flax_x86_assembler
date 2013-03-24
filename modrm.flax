@@ -1,0 +1,1 @@
+mod(2bit) reg/opcode(3bit) r/m(3bit)
