@@ -13,4 +13,6 @@ F3 REP or REPE/REPZ is encoded using. Repeat prefix applies only to string
 2E Branch not taken (used only with Jcc instructions)
 3E Branch taken (used only with Jcc instructions)
 66 Operand-size override prefix is encoded using (66H is also used as a mandatory prefix for some instructions).
+  if 16-bit mode: change to 32bit
+  if 32-bit mode: change to 16bit
 67 Address-size override prefix or none
