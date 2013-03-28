@@ -1,0 +1,8 @@
+PD:
+  66 0F <OpCode>
+PS:
+  0F <OpCode>
+SD:
+  F2 0F <OpCode>
+SS:
+  F3 0F <OpCode>
