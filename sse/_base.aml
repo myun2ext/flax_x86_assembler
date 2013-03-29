@@ -1,12 +1,16 @@
 PD:
 -- Packed Double-Precision Floating-Point Values
-- format: 66 0F <OpCode>
+- code: 66 0F <OpCode>
+- behavior:
 PS:
 -- Packed Single-Precision Floating-Point Values
-- format: 0F <OpCode>
+- code: 0F <OpCode>
+- behavior:
 SD:
 -- Scalar Double-Precision Floating-Point Values
-- format: F2 0F <OpCode>
+- code: F2 0F <OpCode>
+- behavior:
 SS:
 -- Scalar Single-Precision Floating-Point Values
-- format: F3 0F <OpCode>
+- code: F3 0F <OpCode>
+- behavior:
