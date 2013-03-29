@@ -2,6 +2,9 @@ PD:
 -- Packed Double-Precision Floating-Point Values
 - code: 66 0F <OpCode>
 - behavior:
+  float64 v1_divided[2] = divide_to_float64(v1);
+  float64 v2_divided[2] = divide_to_float64(v2);
+  float64 [2] = divide_to_float64(v2);
 PS:
 -- Packed Single-Precision Floating-Point Values
 - code: 0F <OpCode>
