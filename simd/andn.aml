@@ -1,0 +1,2 @@
+0F DF /r PANDN mm, mm/m64 mm/m64 とmm のビット単位のAND NOT（否定論理積）演算を実行する。
+66 0F DF /r PANDN xmm1, xmm2/m128 xmm2/m128 とxmm1 のビット単位のAND NOT（否定論理積）演算を実行する。

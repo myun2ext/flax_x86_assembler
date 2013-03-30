@@ -1,0 +1,2 @@
+0F DB /r PAND mm, mm/m64 mm/m64 とmm のビット単位のAND（論理積）演算を実行する。
+66 0F DB /r PAND xmm1, xmm2/m128 xmm2/m128 とxmm1 のビット単位のAND（論理積）演算を実行する。

@@ -1,0 +1,2 @@
+0F EF /r PXOR mm, mm/m64 mm/m64 とmm のビット単位のXOR（排他的論理和）演算を実行する。
+66 0F EF /r PXOR xmm1, xmm2/m128 xmm2/m128 とxmm1 のビット単位のXOR（排他的論理和）演算を実行する。
