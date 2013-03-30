@@ -1,0 +1,6 @@
+0F FC /r PADDB mm, mm/m64 mm/m64 とmm のパックドバイト整数を加算する。
+66 0F FC /r PADDB xmm1, mm2/m128 xmm2/m128 とxmm1のパックドバイト整数を加算する。
+0F FD /r PADDW mm, mm/m64 mm/m64 とmm のパックドワード整数を加算する。
+66 0F FD /r PADDW xmm1, xmm2/m128 xmm2/m128 とxmm1のパックドワード整数を加算する。
+0F FE /r PADDD mm, mm/m64 mm/m64 とmm のパックド・ダブルワード整数を加算する。
+66 0F FE /r PADDD xmm1, xmm2/m128 xmm2/m128 とxmm1 のパックド・ダブルワード整数を加算する。
