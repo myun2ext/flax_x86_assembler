@@ -1,0 +1,19 @@
+-- PMULHUW.Multiply Packed Unsigned Integers and Store High Result
+
+0F E4 /r PMULHUW mm1, mm2/m64 mm1 レジスタとmm2/m64 のパックド符号なしワード整数を乗算し、結果の上位16 ビットをmm1 に格納する。
+66 0F E4 /r PMULHUW xmm1, xmm2/m128 xmm1 とxmm2/m128 のパックド符号なしワード整数を乗算し、結果の上位16 ビットをxmm1に格納する。
+
+-- PMULHW.Multiply Packed Signed Integers and Store High Result
+
+0F E5 /r PMULHW mm, mm/m64 mm1 レジスタとmm2/m64 のパックド符号付きワード整数を乗算し、結果の上位16 ビットをmm1 に格納する。
+66 0F E5 /r PMULHW xmm1, xmm2/m128 xmm1 とxmm2/m128 のパックド符号付きワード整数を乗算し、結果の上位16 ビットをxmm1 に格納する。
+
+-- PMULLW.Multiply Packed Signed Integers and Store Low Result
+
+0F D5 /r PMULLW mm, mm/m64 mm1レジスタとmm2/m64のパックド符号付きワード整数を乗算し、結果の下位16 ビットをmm1 に格納する。
+66 0F D5 /r PMULLW xmm1, xmm2/m128 xmm1 とxmm2/m128 のパックド符号付きワード整数を乗算し、結果の下位16 ビットをxmm1 に格納する。
+
+-- PMULUDQ.Multiply Packed Unsigned Doubleword Integers
+
+0F F4 /r PMULUDQ mm1, mm2/m64 mm1の符号なしダブルワード整数にmm2/m64 の符号なしダブルワード整数を掛けて、結果のクワッドワードをmm1 に格納する。
+66 OF F4 /r PMULUDQ xmm1, xmm2/m128 xmm1 のパックド符号なしダブルワード整数にxmm2/m128 のパックド符号なしダブルワード整数を掛けて、結果のクワッドワードをxmm1 に格納する。
