@@ -1,0 +1,28 @@
+-- PSUBB/PSUBW/PSUBD.Subtract Packed Integers
+
+0F F8 /r PSUBB mm, mm/m64 mmのパックドバイト整数からmm/m64のパックドバイト整数を引く。
+66 0F F8 /r PSUBB xmm1, xmm2/m128 xmm1 のパックドバイト整数からxmm2/m128 のパックドバイト整数を引く。
+0F F9 /r PSUBW mm, mm/m64 mmのパックドワード整数からmm/m64のパックドワード整数を引く。
+66 0F F9 /r PSUBW xmm1, xmm2/m128 xmm1 のパックドワード整数からxmm2/m128 のパックドワード整数を引く。
+0F FA /r PSUBD mm, mm/m64 mm のパックド・ダブルワード整数からmm/m64 のパックド・ダブルワード整数を引く。
+66 0F FA /r PSUBD xmm1, xmm2/m128 xmm1 のパックド・ダブルワード整数からxmm2/m128 のパックド・ダブルワード整数を引く。
+
+-- PSUBQ.Subtract Packed Quadword Integers
+
+0F FB /r PSUBQ mm1, mm2/m64 mm2/m64 からmm1 のクワッドワード整数を引く。
+66 0F FB /r PSUBQ xmm1, xmm2/m128 xmm2/m128 からxmm1 のパックド・クワッドワード整数を引く。
+
+-- PSUBSB/PSUBSW.Subtract Packed Signed Integers with Signed Saturation
+
+0F E8 /r PSUBSB mm, mm/m64 mmの符号付きパックドバイトからmm/m64 の符号付きパックドバイトを引き、結果を飽和させる。
+66 0F E8 /r PSUBSB xmm1, xmm2/m128 xmm1 の符号つきパックドバイトからxmm2/m128の符号付きパックドバイトを引き、結果を飽和させる。
+0F E9 /r PSUBSW mm, mm/m64 mmの符号付きパックドワードからmm/m64 の符号付きパックドワードを引き、結果を飽和させる。
+66 0F E9 /r PSUBSW xmm1, xmm2/m128 xmm1 の符号つきパックドワードからxmm2/m128の符号付きパックドワードを引き、結果を飽和させる。
+
+
+-- PSUBUSB/PSUBUSW.Subtract Packed Unsigned Integers with Unsigned Saturation
+
+0F D8 /r PSUBUSB mm, mm/m64 mmの符号なしパックドバイトからmm/m64の符号なしパックドバイトを引き、結果を飽和させる。
+66 0F D8 /r PSUBUSB xmm1, xmm2/m128 xmm1 の符号なしパックドバイトからxmm2/m128の符号なしパックドバイトを引き、結果を飽和させる。
+0F D9 /r PSUBUSW mm, mm/m64 mmの符号なしパックドワードからmm/m64の符号なしパックドワードを引き、結果を飽和させる。
+66 0F D9 /r PSUBUSW xmm1, xmm2/m128 xmm1 の符号なしパックドワードからxmm2/m128の符号なしパックドワードを引き、結果を飽和させる。
