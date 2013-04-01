@@ -1,1 +1,2 @@
-3バイトVEXはC4、2バイトVEXはC5から始まる。
+C4:3 Bytes Vex Prefix
+C5:2 Bytes Vex Prefix
