@@ -1,2 +1,15 @@
-C4:3 Bytes Vex Prefix
-C5:2 Bytes Vex Prefix
+C4: -- 3 Bytes Vex Prefix
+-R
+-X
+-B
+-mmmmm
+-W
+-vvvv
+-L
+-pp:
+
+C5: -- 2 Bytes Vex Prefix
+-R
+-vvvv
+-L
+-pp
